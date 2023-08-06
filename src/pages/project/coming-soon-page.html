@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Base Apparel coming soon page</title>
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="CosmoArt">
+	<meta name="theme-color" content="#f96262">
+	<meta name="description" content="Solution to the Frontend Mentor challenge, code by Cosmo Art">
+	<meta name="robots" content="index, nofollow">
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Base Apparel coming soon page">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="./desktop-solution.png">
+	<meta property="og:url" content="">
+	<meta property="og:description" content="Solution to the Frontend Mentor challenge, code by Cosmo Art">
+
+	<!-- Links -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="/assets/coming-soon-page/style.css">
+</head>
+
+<body>
+	<main>
+		<header class="headerLogo">
+			<img src="/assets/coming-soon-page/logo.svg" alt="Base Apparel logo">
+		</header>
+		<picture class="heroImage">
+			<source media="(min-width: 580px)" srcset="/assets/coming-soon-page/hero-desktop.jpg">
+			<source media="(max-width: 579px)" srcset="/assets/coming-soon-page/hero-mobile.jpg">
+			<img src="/assets/coming-soon-page/hero-mobile.jpg" alt="">
+		</picture>
+		<article class="mainArticle">
+			<h1><span> We're</span>
+				coming
+				soon</h1>
+			<p class="mainArticle__p1">Hello fellow shoppers! We're currently building our new fashion store.
+				Add your email below to stay up-to-date with announcements and our launch deals.
+			</p>
+			<form class="mainArticle__form">
+				<input type="email" name="email" placeholder="Email Addres" required>
+				<button type="submit" class="mA__f__Submit" aria-label="Submit"><img src="/assets/coming-soon-page/icon-arrow.svg" alt=""></button>
+				<div aria-live="assertive" class="mainArticle__error hidden"></div>
+			</form>
+		</article>
+	</main>
+	<script src="/assets/coming-soon-page/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import projectsJson from '@/assets/json/projects.json';
+import Header from '@/components/Header.astro';
+---
+
+<Layout title='Frontend Mentor Solutions by Cosmo'>
+	<Header />
+	<main>
+		{
+			projectsJson.map((project) => (
+				<Card
+					title={project.name}
+					imgUrl={project.img}
+					projectUrl={project.url}
+				/>
+			))
+		}
+	</main>
+</Layout>
+
+<style>
+	body {
+		background-image: linear-gradient(
+				#252830 2.4000000000000004px,
+				transparent 2.4000000000000004px
+			),
+			linear-gradient(
+				90deg,
+				#252830 2.4000000000000004px,
+				transparent 2.4000000000000004px
+			),
+			linear-gradient(
+				#252830 1.2000000000000002px,
+				transparent 1.2000000000000002px
+			),
+			linear-gradient(
+				90deg,
+				#252830 1.2000000000000002px,
+				#292d38 1.2000000000000002px
+			);
+		background-size: 60px 60px, 60px 60px, 12px 12px, 12px 12px;
+
+		font-family: 'Roboto', sans-serif;
+		font-size: 1.2rem;
+		line-height: 1.5;
+		color: #f5f5f5;
+		margin: 0;
+		max-width: 1300px;
+		margin-inline: auto;
+		padding: 0 1.5rem;
+	}
+	@media screen and (min-width: 768px) {
+		body {
+			padding: 0 3rem;
+		}
+	}
+
+	main {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+		gap: 1rem;
+		margin-bottom: 5rem;
+	}
+
+	main a {
+		outline: 2px solid red;
+		padding: 2rem;
+		border-radius: 1rem;
+	}
+</style>

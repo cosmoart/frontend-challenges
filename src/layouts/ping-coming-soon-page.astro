@@ -1,0 +1,146 @@
+---
+import '@/components/ping-coming-soon-page/index.scss';
+---
+
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<title>Ping coming soon page</title>
+		<!-- Meta -->
+		<meta charset='UTF-8' />
+		<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+		<meta name='author' content='CosmoArt' />
+		<meta name='theme-color' content='#4285f4' />
+		<meta
+			name='description'
+			content='Solution to the Frontend Mentor challenge, code by Cosmo Art'
+		/>
+		<meta name='robots' content='index, nofollow' />
+
+		<!-- Open Graph -->
+		<meta property='og:title' content='Ping coming soon page' />
+		<meta property='og:type' content='website' />
+		<meta
+			property='og:image'
+			content='https://raw.githubusercontent.com/cosmoart/Ping-coming-soon-page/main/screenshots/desktop-solution.webp'
+		/>
+		<meta
+			property='og:url'
+			content='https://cosmo-ping-coming-soon.netlify.app'
+		/>
+		<meta
+			property='og:description'
+			content='Solution to the Frontend Mentor challenge, code by Cosmo Art'
+		/>
+
+		<!-- Links -->
+		<link
+			rel='stylesheet'
+			href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css'
+			integrity='sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=='
+			crossorigin='anonymous'
+			referrerpolicy='no-referrer'
+		/>
+		<link rel='preconnect' href='https://fonts.googleapis.com' />
+		<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+		<link
+			href='https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap'
+			rel='stylesheet'
+		/>
+		<link rel='icon' href='/assets/ping-coming-soon-page/favicon.svg' />
+	</head>
+
+	<body>
+		<main class='main'>
+			<img
+				src='/assets/ping-coming-soon-page/logo.svg'
+				alt='PING Logo'
+				class='main_logo'
+			/>
+			<h1><span>We are launching</span> <b>soon!</b></h1>
+
+			<h2 class='main_subtitle'>Subscribe and get notified</h2>
+
+			<form id='main_form'>
+				<input
+					type='email'
+					name='email'
+					required
+					placeholder='Your email address...'
+				/>
+				<p class='error' aria-live='assertive'></p>
+				<button type='submit'>Notify Me</button>
+			</form>
+
+			<img
+				src='/assets/ping-coming-soon-page/illustration-dashboard.png'
+				alt=''
+			/>
+
+			<aside>
+				<ul class='main_social'>
+					<li>
+						<a
+							href='https://facebook.com'
+							title='Facebook'
+							rel='noopener'
+							target='_blank'>
+							<svg viewBox='0 0 56 56'>
+								<path
+									d='M40.43 21.739h-7.645v-5.014c0-1.883 1.248-2.322 2.127-2.322h5.395V6.125l-7.43-.029c-8.248 0-10.125 6.174-10.125 10.125v5.518h-4.77v8.53h4.77v24.137h10.033V30.269h6.77l.875-8.53z'
+								></path>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a
+							href='https://twitter.com/CosmoArt0'
+							title='Twitter'
+							rel='noopener'
+							target='_blank'>
+							<svg viewBox='0 0 56 56'>
+								<path
+									d='M52.837 15.065a20.11 20.11 0 0 1-5.805 1.591 10.125 10.125 0 0 0 4.444-5.592 20.232 20.232 0 0 1-6.418 2.454 10.093 10.093 0 0 0-7.377-3.192c-5.581 0-10.106 4.525-10.106 10.107 0 .791.089 1.562.262 2.303-8.4-.422-15.848-4.445-20.833-10.56a10.055 10.055 0 0 0-1.368 5.082c0 3.506 1.784 6.6 4.496 8.412a10.078 10.078 0 0 1-4.578-1.265l-.001.128c0 4.896 3.484 8.98 8.108 9.91a10.162 10.162 0 0 1-4.565.172c1.287 4.015 5.019 6.938 9.441 7.019a20.276 20.276 0 0 1-12.552 4.327c-.815 0-1.62-.048-2.411-.142a28.6 28.6 0 0 0 15.493 4.541c18.591 0 28.756-15.4 28.756-28.756 0-.438-.009-.875-.028-1.309a20.47 20.47 0 0 0 5.042-5.23z'
+								></path>
+							</svg>
+						</a>
+					</li>
+					<li>
+						<a
+							href='https://www.instagram.com/cosmo_art0/'
+							title='Instagram'
+							rel='noopener'
+							target='_blank'>
+							<svg viewBox='0 0 56 56'>
+								<path
+									d='M28.2,16.7c-7,0-12.8,5.7-12.8,12.8s5.7,12.8,12.8,12.8S41,36.5,41,29.5S35.2,16.7,28.2,16.7z M28.2,37.7   c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2S32.7,37.7,28.2,37.7z'
+								></path>
+								<circle cx='41.5' cy='16.4' r='2.9'></circle>
+								<path
+									d='M49 8.9c-2.6-2.7-6.3-4.1-10.5-4.1H17.9c-8.7 0-14.5 5.8-14.5 14.5v20.5c0 4.3 1.4 8 4.2 10.7 2.7 2.6 6.3 3.9 10.4 3.9h20.4c4.3 0 7.9-1.4 10.5-3.9 2.7-2.6 4.1-6.3 4.1-10.6V19.3c0-4.2-1.4-7.8-4-10.4zm-.4 31c0 3.1-1.1 5.6-2.9 7.3s-4.3 2.6-7.3 2.6H18c-3 0-5.5-.9-7.3-2.6C8.9 45.4 8 42.9 8 39.8V19.3c0-3 .9-5.5 2.7-7.3 1.7-1.7 4.3-2.6 7.3-2.6h20.6c3 0 5.5.9 7.3 2.7 1.7 1.8 2.7 4.3 2.7 7.2v20.6h0z'
+								></path>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</aside>
+
+			<p class='copyRight'>&copy; Copyright Ping. All rights reserved.</p>
+		</main>
+
+		<footer class='attribution'>
+			Challenge by <a
+				href='https://www.frontendmentor.io?ref=challenge'
+				target='_blank'
+				rel='noopener'>Frontend Mentor</a
+			>. Coded by <a
+				href='https://github.com/cosmoart'
+				target='_blank'
+				rel='noopener'>CosmoArt</a
+			>.
+		</footer>
+		<script type='module' src='./src/index.js'></script>
+		<script src='@/components/ping-coming-soon-page/index.js'></script>
+	</body>
+</html>

@@ -1,0 +1,107 @@
+[
+	{
+		"name": "Advice generator app",
+		"url": "/project/advice-generator-app",
+		"img": "/assets/previews/advice-generator-app.webp"
+	},
+	{
+		"name": "Article preview component",
+		"url": "/project/article-preview-component",
+		"img": "/assets/previews/article-preview-component.webp"
+	},
+	{
+		"name": "Expenses chart component",
+		"url": "/project/expenses-chart-component",
+		"img": "/assets/previews/expenses-chart-component.webp"
+	},
+	{
+		"name": "Component with sign up form",
+		"url": "/project/intro-component-with-sign-up-form",
+		"img": "/assets/previews/intro-component-with-sign-up-form.webp"
+	},
+	{
+		"name": "Ping coming soon page",
+		"url": "/project/ping-coming-soon-page",
+		"img": "/assets/previews/ping-coming-soon-page.webp"
+	},
+	{
+		"name": "Age calculator",
+		"url": "/project/age-calculator",
+		"img": "/assets/previews/age-calculator.webp"
+	},
+	{
+		"name": "Stats preview card",
+		"url": "/project/stats-preview-card",
+		"img": "/assets/previews/stats-preview-card.webp"
+	},
+	{
+		"name": "Single price grid",
+		"url": "/project/single-price-grid",
+		"img": "/assets/previews/single-price-grid.webp"
+	},
+	{
+		"name": "Four card feature section",
+		"url": "/project/four-card-feature-section",
+		"img": "/assets/previews/four-card-feature-section.webp"
+	},
+	{
+		"name": "Huddle landing page",
+		"url": "/project/huddle-landing-page",
+		"img": "/assets/previews/huddle-landing-page.webp"
+	},
+	{
+		"name": "3 column preview card",
+		"url": "/project/3-column-preview-card",
+		"img": "/assets/previews/3-column-preview-card.webp"
+	},
+	{
+		"name": "Fylo data storage",
+		"url": "/project/fylo-data-storage",
+		"img": "/assets/previews/fylo-data-storage.webp"
+	},
+	{
+		"name": "Social proof section",
+		"url": "/project/social-proof-section",
+		"img": "/assets/previews/social-proof-section.webp"
+	},
+	{
+		"name": "Testimonials grid section",
+		"url": "/project/testimonials-grid-section",
+		"img": "/assets/previews/testimonials-grid-section.webp"
+	},
+	{
+		"name": "Interactive rating component",
+		"url": "/project/interactive-rating",
+		"img": "/assets/previews/interactive-rating.webp"
+	},
+	{
+		"name": "Product preview card",
+		"url": "/project/product-preview-card",
+		"img": "/assets/previews/product-preview-card.webp"
+	},
+	{
+		"name": "Coming soon page",
+		"url": "/project/coming-soon-page",
+		"img": "/assets/previews/coming-soon-page.webp"
+	},
+	{
+		"name": "Order summary",
+		"url": "/project/order-summary",
+		"img": "/assets/previews/order-summary.webp"
+	},
+	{
+		"name": "Profile card",
+		"url": "/project/profile-card",
+		"img": "/assets/previews/profile-card.webp"
+	},
+	{
+		"name": "Qr code",
+		"url": "/project/qr-code",
+		"img": "/assets/previews/qr-code.webp"
+	},
+	{
+		"name": "Nft preview card",
+		"url": "/project/nft-preview-card",
+		"img": "/assets/previews/nft-preview-card.webp"
+	}
+]

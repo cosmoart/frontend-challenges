@@ -1,0 +1,43 @@
+:root {
+	--LightCyan: hsl(193, 38%, 86%);
+	--NeonGreen: hsl(150, 100%, 66%);
+	--GrayishBlue: hsl(217, 19%, 38%);
+	--DarkGrayishBlue: hsl(217, 19%, 24%);
+	--DarkBlue: hsl(218, 23%, 16%);
+}
+
+body {
+	background: var(--DarkBlue);
+	text-align: center;
+	font-family: 'Manrope', sans-serif;
+}
+
+:focus-visible {
+	outline: 3px dashed var(--NeonGreen);
+	outline-offset: 4px;
+}
+
+.disappear {
+	position: relative;
+	top: -100%;
+}
+.loader {
+	position: absolute;
+	width: 6rem;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.spinner {
+	animation: spin 1s cubic-bezier(0.26, 0.8, 0.27, 1.19) infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: translate(-50%, 0) rotate(0deg);
+	}
+
+	100% {
+		transform: translate(-50%, 0) rotate(360deg);
+	}
+}

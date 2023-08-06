@@ -1,0 +1,302 @@
+/* ==== VAR ============ */
+// ## Colors
+// ### Primary
+$Blue: hsl(223, 87%, 63%);
+
+// ### Secondary
+$PaleBlue: hsl(223, 100%, 88%);
+$LightRed: hsl(354, 100%, 66%);
+
+// ### Neutral
+$Gray: hsl(0, 0%, 59%);
+$VeryDarkBlue: hsl(209, 33%, 12%);
+
+/* ==== ATTRIBUTION ==== */
+.attribution {
+    font-size: 0.7rem;
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.attribution:hover {
+    opacity: 1;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* ==== CHALLENGE ====== */
+
+body {
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+img {
+    max-width: 80%;
+    object-fit: cover;
+}
+
+h1 {
+    margin: 12px;
+    font-weight: 300;
+    font-size: 35px;
+
+    b {
+        font-weight: 700;
+    }
+
+    span {
+        opacity: .5;
+    }
+}
+
+.main_subtitle {
+    font-size: 1rem;
+}
+
+.copyRight {
+    font-size: 13px;
+    margin: 0;
+    opacity: .8;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+    max-width: 40rem;
+    margin: auto;
+    align-items: center;
+    box-sizing: border-box;
+    height: clamp(40rem, 100vh, 50rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h2 {
+        font-size: 15px;
+        margin: 5px;
+        font-weight: 300;
+    }
+}
+
+.main_logo {
+    width: 4rem;
+    margin: 1rem;
+}
+
+.main_social {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+
+    $size: 20px;
+
+    svg {
+        width: $size;
+        height: $size;
+    }
+
+    a {
+        width: $size;
+        height: $size;
+        cursor: pointer;
+        position: relative;
+
+        path,
+        circle {
+            transition: fill 0.2s ease-in-out;
+            fill: $Blue;
+        }
+
+        &:hover path,
+        &:hover circle {
+            fill: $PaleBlue;
+        }
+
+        &::after {
+            content: "";
+            width: $size + 13px;
+            height: $size + 13px;
+            border-radius: 100%;
+            background: $Blue;
+            position: absolute;
+            top: -6px;
+            left: -6px;
+            z-index: -5;
+            transform: scale(0);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        &:hover::after {
+            transform: scale(1);
+        }
+    }
+
+}
+
+#main_form {
+    display: flex;
+    gap: 1rem;
+    margin: 25px 0;
+    width: 100%;
+    max-width: 26rem;
+
+    input,
+    button {
+        border-radius: 5rem;
+        border: none;
+        padding: 12px 20px;
+        font-size: 14px;
+        width: 55%;
+    }
+
+
+    input {
+        border: 1px solid $Gray;
+        transition: border 0.2s ease-in-out;
+
+        &::placeholder {
+            color: $Gray;
+        }
+    }
+
+    button {
+        width: 45%;
+        font-weight: 600;
+        border-radius: 5rem;
+        background: $Blue;
+        color: $PaleBlue;
+        cursor: pointer;
+        transition: opacity .2s, transform .2s;
+
+        &:hover {
+            opacity: .7;
+        }
+
+        &:active {
+            transform: scale(.9);
+        }
+    }
+
+    .error {
+        font-size: 13px;
+        position: absolute;
+        transform: translate(20px, 0);
+        opacity: .5;
+        transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+        color: $LightRed;
+    }
+
+    .error--active {
+        opacity: 1;
+        transform: translate(20px, 35px);
+    }
+
+    .shake {
+        animation: shake .3s ease-in-out;
+    }
+
+    @keyframes shake {
+        0% {
+            transform: translateX(-10px);
+            background: red;
+        }
+
+        25% {
+            transform: translateX(8px);
+            background: red;
+        }
+
+        60% {
+            transform: translateX(-5px);
+            background: red;
+        }
+
+        100% {
+            transform: translateX(9px);
+            background: red;
+        }
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
+@media screen and (min-width: 1200px) and (min-height: 880px) {
+    .main {
+        height: clamp(40rem, 100vh, 60rem);
+        max-width: 44rem;
+    }
+
+    .main_logo {
+        width: 5rem;
+    }
+
+    h1 {
+        font-size: 48px;
+        margin-top: 28px;
+    }
+
+    #main_form {
+        max-width: 100%;
+        margin-bottom: 83px;
+
+        input,
+        button {
+            padding: 19px 20px;
+        }
+
+        input {
+            width: 60%;
+        }
+
+        button {
+            width: 30%;
+        }
+        .error--active {
+           transform: translate(20px, 60px);
+        }
+    }
+
+    .main>img {
+        max-width: 100%;
+        margin: 20px;
+    }
+
+    .main h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-height: 660px){
+    .main{
+        transform: translate(-50%,-0%);
+        top: auto;
+    }
+}
+@media screen and (max-width: 480px){
+    #main_form{
+        flex-direction: column;
+        gap: 30px;
+           button,
+           input{
+               width: auto;
+            }
+    }
+}
