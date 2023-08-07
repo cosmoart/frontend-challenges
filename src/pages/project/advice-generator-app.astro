@@ -1,8 +1,8 @@
 ---
-import AppMain from '@/components/advice-generator-app';
+import AppMain from '@/components/advice-generator-app/index.jsx';
 import Layout from '@/layouts/advice-generator-app.astro';
 ---
 
 <Layout>
-	<AppMain client:load />
+	<AppMain client:only />
 </Layout>
