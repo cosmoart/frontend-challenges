@@ -3,9 +3,10 @@ interface Props {
 	title: string;
 	imgUrl: string;
 	projectUrl: string;
+	codeUrl: string;
 }
 
-const { projectUrl, title, imgUrl } = Astro.props;
+const { projectUrl, title, imgUrl, codeUrl } = Astro.props;
 import codeIcon from '@/assets/icons/code.svg';
 ---
 
@@ -19,7 +20,11 @@ import codeIcon from '@/assets/icons/code.svg';
 				{title}
 				<span>&rarr;</span>
 			</h3>
-			<a href='#' class='code-link'>
+			<a
+				href={codeUrl}
+				class='code-link'
+				target='_blank'
+				rel='noopener noreferrer'>
 				<img src={codeIcon} title='View Code' />
 			</a>
 		</div>

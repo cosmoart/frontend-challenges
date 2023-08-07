@@ -2,106 +2,127 @@
 	{
 		"name": "Advice generator app",
 		"url": "/project/advice-generator-app",
-		"img": "/assets/previews/advice-generator-app.webp"
+		"img": "/assets/previews/advice-generator-app.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/tree/main/src/components/advice-generator-app"
 	},
 	{
 		"name": "Article preview component",
 		"url": "/project/article-preview-component",
-		"img": "/assets/previews/article-preview-component.webp"
+		"img": "/assets/previews/article-preview-component.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/tree/main/src/components/article-preview-component"
 	},
 	{
 		"name": "Expenses chart component",
 		"url": "/project/expenses-chart-component",
-		"img": "/assets/previews/expenses-chart-component.webp"
+		"img": "/assets/previews/expenses-chart-component.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/tree/main/src/components/expenses-chart-component"
 	},
 	{
 		"name": "Component with sign up form",
 		"url": "/project/intro-component-with-sign-up-form",
-		"img": "/assets/previews/intro-component-with-sign-up-form.webp"
+		"img": "/assets/previews/intro-component-with-sign-up-form.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/tree/main/src/components/intro-component-with-sign-up-form"
 	},
 	{
 		"name": "Ping coming soon page",
 		"url": "/project/ping-coming-soon-page",
-		"img": "/assets/previews/ping-coming-soon-page.webp"
+		"img": "/assets/previews/ping-coming-soon-page.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/tree/main/src/components/ping-coming-soon-page"
 	},
 	{
 		"name": "Age calculator",
 		"url": "/project/age-calculator",
-		"img": "/assets/previews/age-calculator.webp"
+		"img": "/assets/previews/age-calculator.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/tree/main/src/components/age-calculator"
 	},
 	{
 		"name": "Stats preview card",
 		"url": "/project/stats-preview-card",
-		"img": "/assets/previews/stats-preview-card.webp"
+		"img": "/assets/previews/stats-preview-card.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/blob/main/src/pages/project/stats-preview-card.html"
 	},
 	{
 		"name": "Single price grid",
 		"url": "/project/single-price-grid",
-		"img": "/assets/previews/single-price-grid.webp"
+		"img": "/assets/previews/single-price-grid.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/blob/main/src/pages/project/single-price-grid.html"
 	},
 	{
 		"name": "Four card feature section",
 		"url": "/project/four-card-feature-section",
-		"img": "/assets/previews/four-card-feature-section.webp"
+		"img": "/assets/previews/four-card-feature-section.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/blob/main/src/pages/project/four-card-feature-section.html"
 	},
 	{
 		"name": "Huddle landing page",
 		"url": "/project/huddle-landing-page",
-		"img": "/assets/previews/huddle-landing-page.webp"
+		"img": "/assets/previews/huddle-landing-page.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/blob/main/src/pages/project/huddle-landing-page.html"
 	},
 	{
 		"name": "3 column preview card",
 		"url": "/project/3-column-preview-card",
-		"img": "/assets/previews/3-column-preview-card.webp"
+		"img": "/assets/previews/3-column-preview-card.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/blob/main/src/pages/project/3-column-preview-card.html"
 	},
 	{
 		"name": "Fylo data storage",
 		"url": "/project/fylo-data-storage",
-		"img": "/assets/previews/fylo-data-storage.webp"
+		"img": "/assets/previews/fylo-data-storage.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/blob/main/src/pages/project/fylo-data-storage.html"
 	},
 	{
 		"name": "Social proof section",
 		"url": "/project/social-proof-section",
-		"img": "/assets/previews/social-proof-section.webp"
+		"img": "/assets/previews/social-proof-section.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/blob/main/src/pages/project/social-proof-section.html"
 	},
 	{
 		"name": "Testimonials grid section",
 		"url": "/project/testimonials-grid-section",
-		"img": "/assets/previews/testimonials-grid-section.webp"
+		"img": "/assets/previews/testimonials-grid-section.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/blob/main/src/pages/project/testimonials-grid-section.html"
 	},
 	{
 		"name": "Interactive rating component",
 		"url": "/project/interactive-rating",
-		"img": "/assets/previews/interactive-rating.webp"
+		"img": "/assets/previews/interactive-rating.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/blob/main/src/pages/project/interactive-rating.html"
 	},
 	{
 		"name": "Product preview card",
 		"url": "/project/product-preview-card",
-		"img": "/assets/previews/product-preview-card.webp"
+		"img": "/assets/previews/product-preview-card.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/blob/main/src/pages/project/product-preview-card.html"
 	},
 	{
 		"name": "Coming soon page",
 		"url": "/project/coming-soon-page",
-		"img": "/assets/previews/coming-soon-page.webp"
+		"img": "/assets/previews/coming-soon-page.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/blob/main/src/pages/project/coming-soon-page.html"
 	},
 	{
 		"name": "Order summary",
 		"url": "/project/order-summary",
-		"img": "/assets/previews/order-summary.webp"
+		"img": "/assets/previews/order-summary.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/blob/main/src/pages/project/order-summary.html"
 	},
 	{
 		"name": "Profile card",
 		"url": "/project/profile-card",
-		"img": "/assets/previews/profile-card.webp"
+		"img": "/assets/previews/profile-card.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/blob/main/src/pages/project/profile-card.html"
 	},
 	{
 		"name": "Qr code",
 		"url": "/project/qr-code",
-		"img": "/assets/previews/qr-code.webp"
+		"img": "/assets/previews/qr-code.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/blob/main/src/pages/project/qr-code.html"
 	},
 	{
 		"name": "Nft preview card",
 		"url": "/project/nft-preview-card",
-		"img": "/assets/previews/nft-preview-card.webp"
+		"img": "/assets/previews/nft-preview-card.webp",
+		"code": "https://github.com/cosmoart/frontend-challenges/blob/main/src/pages/project/nft-preview-card.html"
 	}
 ]
